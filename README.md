@@ -18,7 +18,7 @@ chmod +x start.sh
 
 4. Execute the setup script to install dependencies and configure the project:
 ```bash
-./strat.sh
+./start.sh
 ```
 🔄 The script will automatically install the required dependencies for the client and server, set up the environment variables, and build the client application.
 
