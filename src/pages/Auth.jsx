@@ -150,8 +150,7 @@ function Auth() {
           toast(data.message);
           setAction("login");
         } else {
-          // probably wont need it with so much client validation but stays there
-          toast(data.message, "error");
+          toast(data.error, "error");
         }
       } catch (error) {
         console.error(`❌ error occured: ${error.message}`);
